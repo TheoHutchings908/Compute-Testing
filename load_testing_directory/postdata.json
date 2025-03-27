@@ -1,0 +1,16 @@
+{
+    "CustomerId": 6,
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Email": "john.doe@example.com",
+    "Phone": "+1 (555) 555-1234",
+    "Address": "123 Main Street",
+    "City": "Sampleville",
+    "State": "NA",
+    "PostalCode": "12345",
+    "Country": "USA",
+    "Company": null,
+    "Fax": null,
+    "SupportRepId": 3
+  }
+  

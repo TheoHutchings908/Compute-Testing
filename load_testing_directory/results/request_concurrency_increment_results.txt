@@ -1,0 +1,252 @@
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        127.0.0.1
+Server Port:            5000
+
+Document Path:          /items
+Document Length:        16185 bytes
+
+Concurrency Level:      10
+Time taken for tests:   35.496 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      163530000 bytes
+HTML transferred:       161850000 bytes
+Requests per second:    281.72 [#/sec] (mean)
+Time per request:       35.496 [ms] (mean)
+Time per request:       3.550 [ms] (mean, across all concurrent requests)
+Transfer rate:          4499.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:    12   35   9.7     35      66
+Waiting:        1   17   8.1     20      46
+Total:         13   35   9.7     35      66
+
+Percentage of the requests served within a certain time (ms)
+  50%     35
+  66%     42
+  75%     44
+  80%     45
+  90%     47
+  95%     48
+  98%     50
+  99%     52
+ 100%     66 (longest request)
+
+ ---
+
+ Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        127.0.0.1
+Server Port:            5000
+
+Document Path:          /items
+Document Length:        16185 bytes
+
+Concurrency Level:      10
+Time taken for tests:   35.496 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      163530000 bytes
+HTML transferred:       161850000 bytes
+Requests per second:    281.72 [#/sec] (mean)
+Time per request:       35.496 [ms] (mean)
+Time per request:       3.550 [ms] (mean, across all concurrent requests)
+Transfer rate:          4499.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:    12   35   9.7     35      66
+Waiting:        1   17   8.1     20      46
+Total:         13   35   9.7     35      66
+
+Percentage of the requests served within a certain time (ms)
+  50%     35
+  66%     42
+  75%     44
+  80%     45
+  90%     47
+  95%     48
+  98%     50
+  99%     52
+ 100%     66 (longest request)
+
+ ---
+
+ Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        127.0.0.1
+Server Port:            5000
+
+Document Path:          /items
+Document Length:        16185 bytes
+
+Concurrency Level:      100
+Time taken for tests:   34.628 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      163530000 bytes
+HTML transferred:       161850000 bytes
+Requests per second:    288.78 [#/sec] (mean)
+Time per request:       346.280 [ms] (mean)
+Time per request:       3.463 [ms] (mean, across all concurrent requests)
+Transfer rate:          4611.79 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       2
+Processing:    20  345  42.6    349     486
+Waiting:        2  326  42.3    331     462
+Total:         20  345  42.6    350     486
+
+Percentage of the requests served within a certain time (ms)
+  50%    350
+  66%    362
+  75%    370
+  80%    375
+  90%    388
+  95%    401
+  98%    417
+  99%    430
+ 100%    486 (longest request)
+
+ ---
+
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        127.0.0.1
+Server Port:            5000
+
+Document Path:          /items
+Document Length:        16185 bytes
+
+Concurrency Level:      200
+Time taken for tests:   35.106 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      163530000 bytes
+HTML transferred:       161850000 bytes
+Requests per second:    284.85 [#/sec] (mean)
+Time per request:       702.127 [ms] (mean)
+Time per request:       3.511 [ms] (mean, across all concurrent requests)
+Transfer rate:          4548.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    3  40.7      0     517
+Processing:   149  693 235.4    547    1070
+Waiting:        3  585 170.0    529    1067
+Total:        166  696 236.8    547    1070
+
+Percentage of the requests served within a certain time (ms)
+  50%    547
+  66%    552
+  75%   1044
+  80%   1047
+  90%   1053
+  95%   1057
+  98%   1064
+  99%   1067
+ 100%   1070 (longest request)
+
+---
+
+Completed 1000 requests
+Completed 2000 requests
+Completed 3000 requests
+Completed 4000 requests
+Completed 5000 requests
+Completed 6000 requests
+Completed 7000 requests
+Completed 8000 requests
+Completed 9000 requests
+Completed 10000 requests
+Finished 10000 requests
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        127.0.0.1
+Server Port:            5000
+
+Document Path:          /items
+Document Length:        16185 bytes
+
+Concurrency Level:      500
+Time taken for tests:   34.702 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      163530000 bytes
+HTML transferred:       161850000 bytes
+Requests per second:    288.16 [#/sec] (mean)
+Time per request:       1735.122 [ms] (mean)
+Time per request:       3.470 [ms] (mean, across all concurrent requests)
+Transfer rate:          4601.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    3  40.5      0     515
+Processing:   135 1685 300.9   1617    2141
+Waiting:        3 1083 458.6   1064    2129
+Total:        195 1689 302.3   1618    2145
+
+Percentage of the requests served within a certain time (ms)
+  50%   1618
+  66%   1622
+  75%   1626
+  80%   2113
+  90%   2126
+  95%   2130
+  98%   2134
+  99%   2136
+ 100%   2145 (longest request)
