@@ -1,7 +1,7 @@
 import requests
 import concurrent.futures
 
-BASE_URL = 'http://127.0.0.1:5000'
+BASE_URL = 'your_localhost_ip'
 
 
 def get_items():

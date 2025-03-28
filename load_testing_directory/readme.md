@@ -27,7 +27,7 @@ Apache Bench is a lightweight command-line tool used to benchmark your HTTP serv
 </p>
 
 ```bash
-ab -n 1000 -c 100 http://127.0.0.1:5000/items
+ab -n 1000 -c 100 "your_localhost_ip"/items
 ```
 *Sends 1,000 GET requests with 100 concurrent connections.*
 
@@ -38,7 +38,7 @@ ab -n 1000 -c 100 http://127.0.0.1:5000/items
 </p>
 
   ```bash
-  ab -t 30 -c 50 http://127.0.0.1:5000/items
+  ab -t 30 -c 50 "your_localhost_ip"/items
   ```
   *Runs the test for 30 seconds with 50 concurrent requests.*
 
@@ -49,7 +49,7 @@ ab -n 1000 -c 100 http://127.0.0.1:5000/items
 </p>
 
   ```bash
-  ab -n 1000 -c 100 -k http://127.0.0.1:5000/items
+  ab -n 1000 -c 100 -k "your_localhost_ip"/items
   ```
   *Enables HTTP KeepAlive to reuse connections across multiple requests.*
 
@@ -60,7 +60,7 @@ ab -n 1000 -c 100 http://127.0.0.1:5000/items
 </p>
 
   ```bash
-  ab -n 500 -c 50 -H "Authorization: Bearer YOUR_TOKEN" http://127.0.0.1:5000/items
+  ab -n 500 -c 50 -H "Authorization: Bearer YOUR_TOKEN" "your_localhost_ip"/items
   ```
   *Includes a custom header (e.g., for authentication) in each request.*
 
@@ -73,7 +73,7 @@ ab -n 1000 -c 100 http://127.0.0.1:5000/items
   1. Create a `postdata.json` file with your JSON payload.
   2. Run:
 ```bash
-ab -n 500 -c 50 -p postdata.json -T "application/json" http://127.0.0.1:5000/items
+ab -n 500 -c 50 -p postdata.json -T "application/json" "your_localhost_ip"/items
 ```
   *Simulates POST requests with the provided JSON data.*
 
@@ -84,7 +84,7 @@ ab -n 500 -c 50 -p postdata.json -T "application/json" http://127.0.0.1:5000/ite
 </p>
 
 ```bash
-ab -n 10000 -c 500 http://127.0.0.1:5000/items
+ab -n 10000 -c 500 "your_localhost_ip"/items
 ```
   *Pushes the server to its limits by increasing both the total number of requests and the concurrency level.*
 
@@ -112,7 +112,7 @@ import threading
 import time
 
 # Replace with your server's public IP or domain (e.g., http://yourdomain.com)
-BASE_URL = 'http://127.0.0.1:5000'
+BASE_URL = '"your_localhost_ip"'
 
 def send_get_requests():
     counter = 0
@@ -148,7 +148,7 @@ This script uses Python’s `concurrent.futures.ThreadPoolExecutor` to send mult
 import requests
 import concurrent.futures
 
-BASE_URL = 'http://127.0.0.1:5000'
+BASE_URL = '"your_localhost_ip"'
 
 def get_items():
     response = requests.get(BASE_URL + "/items")
